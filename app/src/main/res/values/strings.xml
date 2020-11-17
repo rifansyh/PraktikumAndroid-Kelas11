@@ -3,4 +3,9 @@
     <string name="Email">email</string>
     <string name="password">password</string>
     <string name="login">login</string>
+    <string name="student_id">student_id</string>
+    <string name="student_name">student_name</string>
+    <string name="save">save</string>
+    <string name="dial">dial</string>
+    <string name="student_phone_number">phone_number</string>
 </resources>

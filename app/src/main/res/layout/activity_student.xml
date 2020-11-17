@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".StudentActivity">
+
+    <EditText
+        android:id="@+id/etIdStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/student_id"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/etNameStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/student_name"
+        android:layout_marginTop="8dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/etPhoneNumberStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/student_phone_number"
+        android:layout_marginTop="8dp"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/btSaveStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/btDialStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial"
+        android:layout_marginTop="8dp"
+        />
+
+</LinearLayout>
