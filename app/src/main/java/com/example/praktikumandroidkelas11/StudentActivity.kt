@@ -39,6 +39,7 @@ class StudentActivity : AppCompatActivity() {
             startActivity(i)
 
             //POJO (Plain Old Java Object)
+            //Test
         }
 
         btDial.setOnClickListener {
